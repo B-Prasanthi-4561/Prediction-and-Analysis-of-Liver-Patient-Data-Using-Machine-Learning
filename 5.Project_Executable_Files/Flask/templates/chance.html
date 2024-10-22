@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIVER DISEASE PREDICTION</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: url('https://thumbs.dreamstime.com/b/cartoon-doctor-holding-large-liver-front-world-to-raise-awareness-hepatitis-day-customizable-illustration-322191059.jpg') no-repeat center center fixed; /* Add your background image URL here */
+            background-size: 100%;
+            margin: 0;
+            padding: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            color: #ecf0f1; /* Light text color */
+        }
+        .content {
+            background: rgba(245, 195, 188, 0.90); /* Semi-transparent background for the content */
+            border-radius: 12px;
+            padding: 50px;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .title {
+            font-size: 2.5em;
+            font-style:normal;
+            margin-bottom: 20px;
+            color: #b91144; /* Maroon color for the title */
+        }
+        .result {
+            font-size: 1.5em;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 20px;
+            color: #000000; /* Green color for the result */
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="title-box">
+            <div class="title">LIVER DISEASE PREDICTION</div>
+            <div class="result">{{ prediction }}</div>
+        </div>
+    </div>
+</body>
+</html>
